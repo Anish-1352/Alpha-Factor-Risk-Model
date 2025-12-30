@@ -1,10 +1,32 @@
-# Ignore data files
+# --- Data Files (CRITICAL: Do not upload these) ---
+# Ignore the specific data folder
+data/
+
+# Ignore large binary files wherever they are
 *.pickle
 *.bz2
 *.csv
-data/
+*.xlsx
+*.zip
+*.pkl
 
-# Ignore Python cache
+# --- Python & Jupyter Notebooks ---
+# Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+# Virtual Environments (if you create them later)
+venv/
+env/
+.env
+
+# --- Operating System & Editor ---
+# Mac OS annoying hidden file
 .DS_Store
+
+# VS Code settings (optional, but good practice to ignore personal settings)
+.vscode/
