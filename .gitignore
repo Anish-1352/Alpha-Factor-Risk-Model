@@ -1,0 +1,10 @@
+# Ignore data files
+*.pickle
+*.bz2
+*.csv
+data/
+
+# Ignore Python cache
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
